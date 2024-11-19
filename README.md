@@ -48,3 +48,27 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+Assicurati che il modulo di routing sia importato correttamente in app.module.ts:
+
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';  // Import del modulo di routing
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { SecondaPaginaComponent } from './seconda-pagina/seconda-pagina.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    SecondaPaginaComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
