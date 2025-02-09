@@ -17,4 +17,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## pubblicazione: Dopo ogni modifica che vuoi pubblicare:
 
 Eseguire una build di produzione ( ng build --configuration production --base-href="/psite/" ).
+
 Eseguire il comando di deploy ( npx angular-cli-ghpages --dir=dist/pSite --branch gh-pages) per aggiornare il branch gh-pages.
