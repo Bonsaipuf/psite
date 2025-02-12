@@ -1,0 +1,27 @@
+// body, html {
+//     height: 100%; /* Assicura che la pagina occupi l'intero schermo */
+//     display: flex;
+//     flex-direction: column;
+//     margin: 0; /* Rimuove i margini */
+// }
+
+.custom-email-link {
+    text-decoration: none; /* Rimuove la sottolineatura */
+    color: inherit; /* Usa il colore del testo normale */
+    /* #000; Cambia il colore in nero o qualsiasi altro colore */
+}
+
+.CV-button {
+    display: flex;
+    justify-content: flex-end; /* Sposta il contenuto a destra */
+}
+
+.contacts-bar{
+    text-align: center;
+    width: 10; /* Restringe la larghezza della barra */
+    bottom: 0;
+}
+
+.prova{ //NON FUNZIONA
+    padding: -700;
+}
